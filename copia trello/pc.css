@@ -26,6 +26,7 @@ html {
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--background);
+  max-width: 100%;
 }
 
 .container {
@@ -91,12 +92,12 @@ body {
 .header-content {
   display: flex;
   margin-top: 15rem;
-  margin-left: 29rem;
-  max-width: 1400px;
+  margin-left: 13rem;
+  max-width: 1600px;
 }
 
 .header-txt {
-  font-size: 2.4rem;
+  font-size: 2rem;
   max-width: 140rem;
 }
 
@@ -107,7 +108,7 @@ body {
 
 .header-img img {
   animation: float 3s linear infinite;
-  width: 70rem;
+  width: 60rem;
 }
 
 @keyframes float {
@@ -245,7 +246,7 @@ main {
 /* seccion de detallles */
 .details {
 
-  max-width: 137rem;
+  max-width: 117rem;
   margin: 0 auto;
 }
 
@@ -404,7 +405,7 @@ main {
 
 /* servicios */
 .Trello-services {
-  max-width: 137rem;
+  max-width: 123rem;
   margin: auto;
   display: flex;
   margin-bottom: 13rem;
@@ -465,7 +466,7 @@ main {
 }
 
 .titulo-tarjetas {
-  width: 137rem;
+  width: 117rem;
   height: auto;
   min-width: 28.8rem;
   margin: 0 auto;
@@ -594,7 +595,7 @@ main {
   position: relative;
   display: flex;
   height: 42.6rem;
-  width: 136rem;
+  width: 120rem;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -602,6 +603,7 @@ main {
   left: calc(50% - 68rem);
   transition: .4s;
   border-radius: 12%;
+  margin: 0 auto;
 }
 
 .planes-contenedor--slider:hover {
